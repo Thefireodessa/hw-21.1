@@ -1,0 +1,330 @@
+@font-face {
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+}
+
+:root {
+    --aside-width:250px;
+    --header-padding-x:20px;
+
+}
+
+header{
+    position: relative;
+    padding: var(--header-padding-x) 0 var(--header-padding-x);
+    border: 1px solid black;
+}
+
+header nav.header__menu {
+    background-color: #ffffff;
+    height: 100px;
+    margin-left: var(--aside-width);
+}
+header nav.aside-menu {
+    position: absolute;
+    width: var(--aside-width);
+    background-color: #ffffff;
+    height: 100vh;
+
+    left: 0;
+    top:-1px;
+}
+.body{
+
+}
+main{
+    margin-left: var(--aside-width);
+}
+.aside-menu{
+    display: inline-flex;
+    padding: 51px 42.038px 59.405px 56px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.logo_circ{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    fill: #F4DE4D;
+}
+.cap_letter{
+    position: absolute;
+    top: 60px;
+    left: 133px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+.logo_word{
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+.logo_sym{
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    width: 12px;
+    height: 3px;
+    flex-shrink: 0;
+    background: #000;
+}
+.explo_word{
+    position: absolute;
+    top: 130px;
+    left: 111px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.a\.menu_newin{
+    position: absolute;
+    top: 220px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_newin{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+
+.a\.menu_newin_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.a\.menu_cloth{
+    position: absolute;
+    top: 260px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_cloth{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+.a\.menu_cloth_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.a\.menu_shoes{
+    position: absolute;
+    top: 300px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_shoes{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+.a\.menu_shoes_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.a\.menu_access{
+    position: absolute;
+    top: 340px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_access{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+.a\.menu_access_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.a\.menu_active{
+    position: absolute;
+    top: 380px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_active{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+.a\.menu_active_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.a\.menu_gifts{
+    position: absolute;
+    top: 420px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_gifts{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+.a\.menu_gifts_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.a\.menu_inspiration{
+    position: absolute;
+    top: 460px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_inspiration{
+    width: 22.443px;
+    height: 22.443px;
+    flex-shrink: 0;
+}
+.a\.menu_inspiration_word{
+    color: #000;
+    font-size: 15.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.a\.menu_help{
+    position: absolute;
+    top: 520px;
+    left: 111px;
+    display: flex;
+    gap: 10.1px;
+    font-family: 'Roboto', sans-serif;
+}
+.img_help{
+    width: 33px;
+    height: 33px;
+    flex-shrink: 0;
+}
+.a\.menu_help_word{
+    position: absolute;
+    top: 1px;
+    left: 50px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.header_search{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.header_search_text{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.2;
+}
+.header_menu_right{
+    position: absolute;
+    top: 55px;
+    left: 600px;
+    display: flex;
+    gap: 42px;
+}
+.header_menu_style{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.rectangle4{
+    position: absolute;
+    top: 15px;
+    left: 1px;
+    width: 72px;
+    height: 10px;
+    flex-shrink: 0;
+}
+.person_basket{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 55px;
+    left: 1100px;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    :root {
+        --aside-width: 150px;
+    }
+}
