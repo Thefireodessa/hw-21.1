@@ -5,7 +5,7 @@
 
 :root {
     --aside-width:250px;
-    --header-padding-x:20px;
+    --header-padding-x:10px;
 
 }
 
@@ -287,7 +287,7 @@ main{
 .header_menu_right{
     position: absolute;
     top: 55px;
-    left: 600px;
+    left: 750px;
     display: flex;
     gap: 42px;
 }
@@ -313,9 +313,85 @@ main{
     gap: 10px;
     position: absolute;
     top: 55px;
-    left: 1100px;
+    left: 1250px;
+}
+.container{
+   width: 1188px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
+.container__banner_info{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container__banner_photo{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner_1{
+    width: 530px;
+    height: 200px;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.banner_2{
+    width: 530px;
+    margin-left: 50px;
+    height: 200px;
+    padding: 5px;
+}
+.banner_3{
+    width: 250px;
+    height: 403px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.banner_4{
+    border-radius: 15px;
+    width: 250px;
+    height: 403px;
+    padding: 5px;
+
+
+}
+.banner_5{
+    border-radius: 15px;
+    width: 247px;
+    height: 403px;
+}
+.banner_6{
+    width: 270px;
+    height: 405px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.banner_7{
+    width: 505px;
+    height: 200px;
+    padding: 5px;
+    margin-left: 18px;
+    border-radius: 30px;
+}
+.banner_8{
+    width: 505px;
+    height: 200px;
+    padding: 5px;
+    margin-left: 18px;
+    border-radius: 30px;
+}
+
+.container__banner_info_2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 45px;
+    padding: 5px;
+}
+
 
 
 
