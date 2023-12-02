@@ -1,13 +1,7 @@
 footer {
   background-color: $footer-color;
   .container {
-    font-family: $font-family_poppins;
-    width: 100%;
-    display: flex;
-    padding-top: $footer-padding-top;
-    padding-bottom: $footer-padding-bottom;
-    padding-left: $navigation_padding_left;
-    padding-right: $navigation_padding_left;
+    @include container-standart;
     .footer_left {
       width: 50%;
       color: $footer-text-color;

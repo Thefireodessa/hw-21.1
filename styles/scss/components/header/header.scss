@@ -6,94 +6,97 @@
   background-repeat: no-repeat;
   height: $top-height;
   font-size: $font-size-header;
-  .navigation {
-    display: flex;
-    padding-top: $navigation_padding_top;
-    padding-left: 130px;
-    padding-right: 130px;
-    justify-content: space-between;
 
-    .right_top {
+  .container {
+  @include container-standart;
+    padding-top: 20px;
+    flex-direction: column;
+    .navigation {
       display: flex;
-      gap: $right_top_gap;
+      justify-content: space-between;
 
-      .home {
-        padding-top: 5px;
+      .right_top {
+        display: flex;
+        gap: $right_top_gap;
 
-        a {
-          text-decoration: none;
+        .home {
+          padding-top: 5px;
+
+          a {
+            text-decoration: none;
+            color: $right_top_color;
+          }
+        }
+
+        .terms {
+          padding-top: 5px;
+
+          a {
+            text-decoration: none;
+            color: $right_top_color;
+          }
+        }
+
+        input {
           color: $right_top_color;
+          background-color: $right_top_button_color;
+          border-radius: 9px;
+          width: $right_top_button_width;
+          height: $right_top_button_height;
+          cursor: pointer;
+          border: none;
         }
       }
+    }
+  }
 
-      .terms {
-        padding-top: 5px;
+  .top_center {
+    display: flex;
+    flex-wrap: wrap;
 
-        a {
-          text-decoration: none;
-          color: $right_top_color;
-        }
+    .top_info {
+      padding-top: $top_info_padding_top;
+
+      padding-bottom: $top_info_padding_bottom;
+      color: $right_top_color;
+      width: 100%;
+
+      h1 {
+        font-size: 70px;
       }
+    }
+
+    .rest1 {
+
+      padding-bottom: $rest1_padding_bottom;
+      width: 100%;
 
       input {
         color: $right_top_color;
         background-color: $right_top_button_color;
-        border-radius: 9px;
-        width: $right_top_button_width;
-        height: $right_top_button_height;
+        border-radius: 3px 15px 3px 15px;
+        width: 250px;
+        height: 50px;
         cursor: pointer;
         border: none;
       }
     }
-  }
-}
 
-.top_center {
-  display: flex;
-  flex-wrap: wrap;
+    .accept {
 
-  .top_info {
-    padding-top: $top_info_padding_top;
-    padding-left: $navigation_padding_left;
-    padding-bottom: $top_info_padding_bottom;
-    color: $right_top_color;
-    width: 100%;
+      width: 100%;
+      display: flex;
 
-    h1 {
-      font-size: 70px;
-    }
-  }
+      .agree {
+        color: $right_top_color;
+        margin-left: 10px;
+        width: 30%;
+        font-size: $font-size-agree;
 
-  .rest1 {
-    padding-left: $navigation_padding_left;
-    padding-bottom: $rest1_padding_bottom;
-    width: 100%;
-
-    input {
-      color: $right_top_color;
-      background-color: $right_top_button_color;
-      border-radius: 3px 15px 3px 15px;
-      width: 250px;
-      height: 50px;
-      cursor: pointer;
-      border: none;
-    }
-  }
-
-  .accept {
-    padding-left: $navigation_padding_left;
-    width: 100%;
-    display: flex;
-
-    .agree {
-      color: $right_top_color;
-      margin-left: 10px;
-      width: 30%;
-      font-size: $font-size-agree;
-
-      a {
-        color: $right_top_button_color;
-        text-decoration: none;
+        a {
+          color: $right_top_button_color;
+          text-decoration: none;
+        }
       }
     }
   }

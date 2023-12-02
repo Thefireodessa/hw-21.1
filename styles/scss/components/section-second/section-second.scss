@@ -2,13 +2,7 @@
   background-color: $background-color-section-second;
 
   .container {
-    font-family: $font-family_poppins;
-    width: 100%;
-    display: flex;
-    padding-top: $padding-top-section1;
-    padding-bottom: $padding-top-section1;
-    padding-left: $navigation_padding_left;
-    padding-right: $navigation_padding_left;
+    @include container-standart;
     gap: 50px;
     flex-wrap: wrap;
 
@@ -114,6 +108,7 @@
 
       .discription_three_head {
         padding-top: 30px;
+        margin-bottom: 20px;
 
         a {
           text-decoration: none;
