@@ -1,0 +1,14 @@
+header {
+@media (max-width: $container-max-width) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: $bp1) {
+    .container > div {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

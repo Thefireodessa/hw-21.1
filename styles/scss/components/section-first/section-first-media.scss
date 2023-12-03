@@ -1,0 +1,8 @@
+.section-first {
+  @media (max-width: $bp1) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
